@@ -1,3 +1,4 @@
+@@ -0,0 +1,14 @@
 {
   "name": "shadowsocks-websocket-python",
   "description": "shadowsocks over WebSocket, support Heroku.",
@@ -12,6 +13,3 @@
     }
   }
 }
- "stack": "container",
-  "website": "https://github.com/dertooh78/neerfoot",
-  "repository": "https://github.com/dertooh78/neerfoot"
