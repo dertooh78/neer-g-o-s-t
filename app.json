@@ -1,14 +1,10 @@
 {
-  "name": "shadowsocks-websocket-python",
-  "description": "shadowsocks over WebSocket, support Heroku.",
-  "env": {
-    "METHOD": {
-      "description": "encryption method",
-      "value": "aes-256-cfb"
-    },
-    "KEY": {
-      "description": "app-password",
-      "value": ""
-    }
-  }
+  "server": "127.0.0.1",
+  "local_address": "127.0.0.1",
+  "scheme": "ws",
+  "local_port": 1080,
+  "remote_port": 8080,
+  "password": "`try*(^^$some^$%^complex>:<>?~password/",
+  "timeout": 600,
+  "method": "rc4-md5"
 }
