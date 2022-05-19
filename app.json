@@ -1,13 +1,14 @@
 {
-    "name": "lle",
-    "description": "Deploy V2ray VLess on Heroku.",
-    "keywords": ["VLESS"],
-    "env": {
-        "ID": {
-            "description": "VLESS ID",
-            "value": "4c574d00-cb06-476b-aa39-8e65d2539ee3"
-        }
+  "name": "shadowsocks-websocket-python",
+  "description": "shadowsocks over WebSocket, support Heroku.",
+  "env": {
+    "METHOD": {
+      "description": "encryption method",
+      "value": "aes-256-cfb"
     },
-    "repository": "https://github.com/dertooh78/neerfoot",
-    "stack": "container"
+    "KEY": {
+      "description": "app-password",
+      "value": ""
+    }
+  }
 }
