@@ -4,8 +4,7 @@
   "scheme": "ws",
   "local_port": 1080,
   "remote_port": 8080,
-     "PASSWORD": {
-       "description": "A password used to encrypt transfer.",
+     "PASSWORD":"description": "A password used to encrypt transfer.",
        "value": "ss123456"
   "timeout": 600,
   "method": "rc4-md5"
