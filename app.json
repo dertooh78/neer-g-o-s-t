@@ -1,4 +1,4 @@
-@@ -0,0 +1,14 @@
+...@@ -0,0 +1,14 @@
 {
   "name": "shadowsocks-websocket-python",
   "description": "shadowsocks over WebSocket, support Heroku.",
