@@ -8,7 +8,7 @@
     },
     "METHOD": {
       "description": "Encryption method.",
-      "value": "rc4-md5"
+      "value": "aes-256-cfb"
     },
     "KEY": {
       "description": "Encryption key.",
